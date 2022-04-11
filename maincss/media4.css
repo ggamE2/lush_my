@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+.contents{width: 98%; height: 680px;}
+/*cont1*/    
+.contents .txt0{font:normal 21px "Do hyeon"; }      
+/*cont2*/
+.contents .cont2{width: 100%; height: 300px;  }
+.contents .cont2>div{width: 48%;}
+.contents .cont2>div:first-child{margin-right: 4%;}    
+.contents .cont2>div{height: 300px;} /*이거 유무로 버튼 글자 위치가 바ㅜ뀌넹*/
+.contents .cont2>div li .txt1{font: normal 34px "Do hyeon"; margin-top: 40px; }
+.contents .cont2>div li .txt2{font: normal 17px "Nanum Gothic"; margin-top: 30px;}
+.contents .cont2>div li .txt3{font: normal 13px "Nanum Gothic";margin-top: 10px;}
+
+.contents .btn a{margin:30px auto 0;}
+
+    
+}
+
+
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+.contents{width: 80%; height: 780px;}
+.contents .txt0{font:normal 26px "Do hyeon"; }  
+    
+    
+.contents .cont2{width: 95%; height: 360px;}    
+ 
+.contents .cont2>div li .txt1{font: normal 42px "Do hyeon"; margin-top: 50px; }    
+.contents .cont2>div li .txt2{font: normal 19px "Nanum Gothic"; margin-top: 35px;}
+.contents .cont2>div li .txt3{font: normal 15px "Nanum Gothic"; margin-top: 15px;}    
+    
+}
+
+/*pc*/
+@media all and (min-width:1024px) {
+.contents{width: 80%;height: 790px;}
+.contents .cont1 ul{left: 35.5%;} 
+.contents .cont2{width: 85%; height: 390px;}     
+.contents .btn a{width: 160px; height: 60px; line-height: 60px;}
+.contents .txt0{font:normal 28px "Do hyeon"; }   
+    
+.contents .cont2>div li .txt1{font: normal 42px "Do hyeon"; margin-top: 50px; }
+.contents .cont2>div li .txt2{font: normal 21px "Nanum Gothic"; margin-top: 35px;}
+.contents .cont2>div li .txt3{font: normal 16px "Nanum Gothic"; color:#d5d5d5;margin-top: 15px;}    
+    
+}

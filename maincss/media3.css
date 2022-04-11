@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+.contents{height: 1500px; width: 90%;} 
+.contents .cont2 .nemo{width: 45%;} 
+.contents .cont2 .nemo2{width:35%;} 
+.contents .cont2 .nemo3{width:90%; } 
+.contents .cont2 select{width: 25%; height: 38px;}    
+ .contents input[type='checkbox']{ position: relative; display: inline-block; width: 15px; height: 15px;  margin-left: 35px; margin-right: 5px;}
+.contents .txt0{font:normal 21px "Do hyeon"; }  
+    
+}
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+ 
+.contents{height: 1400px;}   
+.contents .cont2 .nemo{} 
+.contents .cont2 .nemo2{} 
+.contents .cont2 .nemo3{width:31%; }
+.contents .txt0{font:normal 26px "Do hyeon"; }   
+    
+    
+}
+
+/*pc*/
+@media all and (min-width:1024px) {
+    
+.contents{height: 1470px;}
+.contents .cont2 .nemo{width:31%; }
+.contents .cont2 .nemo3{width:31%; } 
+.contents .cont2 .nemo2{width:21%;} 
+.contents .txt0{font:normal 28px "Do hyeon"; }       
+    
+    
+}

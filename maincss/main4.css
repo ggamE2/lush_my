@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*contents*/
+.contents{width: 100%; position: relative; height: 750px; margin: 0 auto; }
+
+
+.contents h2{position: relative; font:normal 50px "Do hyeon";text-align: center; margin-top: 40px;}
+
+
+/*cont1*/
+.contents .txt0{position: relative; font:normal 25px "Do hyeon"; text-align: center; margin:30px auto 0; height: 60px; color:#d5d5d5;}
+.contents .txt0 span{color: #000;}
+
+
+/*cont2*/
+.contents .cont2{width: 100%; margin: 60px auto 0; position: relative;}
+.contents .cont2>div{overflow: hidden; width:47%; float: left; height: 390px;}
+.contents .cont2>div:first-child{margin-right: 6%;}
+.contents .cont2>div img{width: 100%;}
+.contents .cont2>div ul{}
+.contents .cont2>div ul li{}
+.contents .cont2>div li .txt1{font: normal 42px "Do hyeon"; margin-top: 50px; }
+.contents .cont2>div li .txt2{font: normal 21px "Nanum Gothic"; margin-top: 35px;}
+.contents .cont2>div li .txt3{font: normal 16px "Nanum Gothic"; color:#d5d5d5;margin-top: 15px;}
+
+/*btn*/
+.contents .btn a{display: block;  width: 135px; font:normal 22px "BM HANNA Air";  height: 55px; line-height: 55px; text-align: center; background: #000; color:#fff; margin: 70px auto 0; }
+.contents .btn a:hover{opacity: 0.6;}

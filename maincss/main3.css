@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*contents*/
+.contents{width: 80%; position: relative; margin: 0 auto; }
+
+
+/*cont1*/
+.contents h2{position: relative; font:normal 50px "Do hyeon";text-align: center; margin-top: 40px;}
+.contents .txt0{position: relative; font:normal 25px "Do hyeon"; text-align: center; margin:30px auto 0; height: 60px; color:#d5d5d5;}
+.contents .txt0 span{color: #000;}
+
+.contents  h3{position: relative; font:normal 37px "Do hyeon"; margin-top: 30px; margin-left: 2%;}
+.contents .line{width: 100%; position: relative; margin: 15px auto 0; height: 2px; background: #000;}
+
+
+/*cont2*/
+.contents .cont2{width: 100%; position: relative; height: 800px; float:Left;}
+.contents .cont2 .txt1{position: relative; margin-left: 4%; font:bold 21px "BM HANNA Air"; margin-right: 7%; margin-top: 35px; }
+.contents .cont2 .txt1 .circle{position: absolute; top:-5px; left:-7px; width:20px; height:20px; border-radius: 50%;   background:rgba(250, 227, 0, 1); z-index: -3;}
+.contents .cont2 .nemo{width:35%; margin-left: 4%; height: 35px; margin-top:15px; position: relative; }
+.contents .cont2 .nemo2{width:30%; margin-left: 4%; height: 35px; margin-top:15px; position: relative; }
+.contents .cont2 .nemo3{width:35%; margin-left: 4%; height: 35px; margin-top:15px; position: relative; }
+
+
+.contents .cont2 select{width: 10%; height: 38px;}
+.contents input[type='checkbox']{ position: relative; width: 15px; height: 15px; top:5px; margin-left: 35px; margin-right: 5px;}
+.contents .cont2 .button{position: relative; display: inline-block; width: 90px; font:normal 15px "BM HANNA Air"; height: 40px; line-height: 40px; background:#000; margin-left:2.5%; }
+.contents .cont2 .button a{display: block; width: 90px; font:normal 15px "BM HANNA Air"; height: 40px; line-height: 40px; color:#fff; text-align: center; }
+
+.contents .cont2 .btn a{display: block;  width: 135px; font:normal 22px "BM HANNA Air";  height: 55px; line-height: 55px; text-align: center; background: #000; color:#fff; margin: 90px auto 0; }
+.contents .cont2 .btn a:hover{opacity: 0.6;}

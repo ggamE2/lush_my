@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+.contents{width: 90%;height: 1700px;}     
+.contents h2{position: relative; font:normal 50px "Do hyeon";text-align: center; margin-top: 80px;}   
+    
+.contents .txt0{font:normal 21px "Do hyeon"; }    
+
+.contents .box{height:90px;}   
+.contents .box ul{position:absolute; width: 100%; left:10%; top:35%; }
+.contents .box li{float:left; font: normal 15px "BM HANNA Air"; }
+.contents .box li:first-child{margin-right:6%;}    
+    
+}
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+.contents{width: 80%; height: 1700px;}      
+.contents h2{position: relative; font:normal 50px "Do hyeon";text-align: center; margin-top: 80px;}  
+.contents .txt0{font:normal 26px "Do hyeon"; }   
+    
+}
+
+/*pc*/
+@media all and (min-width:1024px) {
+    
+.contents{width: 80%;height: 1680px;}    
+.contents .txt0{font:normal 28px "Do hyeon"; }       
+}
